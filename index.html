@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,50 @@
     <title>Anunziatina</title>
     <link rel="shortcut icon" href="img/Logo Anunziatina.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/616e8e88c1.js"></script>
+
+    <style>
+        .img-con {
+            background-image: url(img/Imagen\ prueba.jpg.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100px;
+            width: 100px;
+        }
+
+        body {
+            font-family: sans-serif;
+
+        }
+
+        .contain {
+            height: 50vh;
+            margin: 5%;
+
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
         <a href="#" class="logo">
             <img src="img/Logo Anunziatina.jpg" alt="">
+
         </a>
         <nav>
-            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="" class="nav-link">Inicio</a>
             <a href="Nosotros.html" class="nav-link">Nosotros</a>
             <a href="Menu.html" class="nav-link">Menu</a>
             <a href="Locales.html" class="nav-link">Locales</a>
             <a href="Contacto.html" class="nav-link">Contacto</a>
         </nav>
+
+
+
     </header>
     <div>
         <div class="title">
@@ -27,11 +59,66 @@
             <hr width="800px">
             <p>Te esperamos en nuestras dos sucursales para pasar un momento calido en familia con nuestros platos
                 caseros.</p>
+
         </div>
+
         <section class="seccion-recetas">
-            <img src="img/imagen-recetas.jpg" width="1900" height="1000">
-            <a href="Menu.html"><h1 class="wrap">Nuestras recetas</h1></a>
+            <img src="img/imagen-recetas.jpg" width="2000" height="1000">
+            <a href="Menu.html">
+                <h1 class="wrap">Nuestras Recetas</h1>
+            </a>
         </section>
+
+
     </div>
+
+    <footer class="footer">
+        <table class="tabla-footer">
+            <tr>
+                <td>
+                    <h2 class="footer-barrio">Belgrano</h2>
+                </td>
+                <td colspan="1"></td>
+                <td>
+                    <h2 class="footer-barrio">San Isidro</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="footer-direccion">Baez 198</p>
+                </td>
+                <td>
+                    <div class="logo1"><img src="img/Logo Anunziatina.jpg"></div>
+                </td>
+                <td>
+                    <p class="footer-direccion">Roque Saen Peña 1016</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="footer-dias">Lunes a Domingos</p>
+                </td>
+                <td rowspan="2">
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </td>
+                <td>
+                    <p class="footer-dias">Martes a Domingos</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="footer-horarios">11:30h - 24:00hs</p>
+                </td>
+                <td>
+                    <p class="footer-horarios">11:30hs - 23:00hs</p>
+                </td>
+            </tr>
+        </table>
+        </div>
 </body>
+
 </html>
